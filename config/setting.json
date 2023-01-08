@@ -1,0 +1,28 @@
+{
+  "config": {
+    "branch": "/",
+    "cname": "",
+    "domain": "https://9wijfw.github.io",
+    "email": "",
+    "enabledProxy": "direct",
+    "platform": "github",
+    "repository": "9wijfw.github.io",
+    "token": "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",
+    "username": "9wijfw"
+  },
+  "comment": {
+    "commentPlatform": "gitalk",
+    "disqusSetting": {
+      "api": "",
+      "apikey": "",
+      "shortname": ""
+    },
+    "gitalkSetting": {
+      "clientId": "",
+      "clientSecret": "",
+      "owner": "",
+      "repository": ""
+    },
+    "showComment": false
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://9wijfw.github.io</id>
+    <title>?¿?的个人博客</title>
+    <updated>2023-01-08T06:13:20.216Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://9wijfw.github.io"/>
+    <link rel="self" href="https://9wijfw.github.io/atom.xml"/>
+    <subtitle>逸一时，误一世</subtitle>
+    <logo>https://9wijfw.github.io/images/avatar.png</logo>
+    <icon>https://9wijfw.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, ?¿?的个人博客</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://9wijfw.github.io/post/ce-shi/</id>
+        <link href="https://9wijfw.github.io/post/ce-shi/">
+        </link>
+        <updated>2023-01-07T11:54:52.000Z</updated>
+        <content type="html"><![CDATA[<p>114514<img src="https://9wijfw.github.io/post-images/1673092513328.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9wijfw.github.io</id>
     <title>?¿?的个人博客</title>
-    <updated>2023-02-07T07:05:03.377Z</updated>
+    <updated>2023-02-10T09:01:05.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://9wijfw.github.io"/>
     <link rel="self" href="https://9wijfw.github.io/atom.xml"/>
@@ -10,15 +10,6 @@
     <logo>https://9wijfw.github.io/images/avatar.png</logo>
     <icon>https://9wijfw.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, ?¿?的个人博客</rights>
-    <entry>
-        <title type="html"><![CDATA[下北泽事务所正式成立]]></title>
-        <id>https://9wijfw.github.io/post/xia-bei-ze-shi-wu-suo-zheng-shi-cheng-li/</id>
-        <link href="https://9wijfw.github.io/post/xia-bei-ze-shi-wu-suo-zheng-shi-cheng-li/">
-        </link>
-        <updated>2023-01-09T02:34:26.000Z</updated>
-        <content type="html"><![CDATA[<p>！！！！！！！！！！！！<img src="https://9wijfw.github.io/post-images/1673231744424.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[测试]]></title>
         <id>https://9wijfw.github.io/post/ce-shi/</id>

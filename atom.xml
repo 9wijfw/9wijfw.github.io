@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://9wijfw.github.io</id>
+    <title>Airbus380AL的个人博客</title>
+    <updated>2024-06-21T16:02:58.383Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://9wijfw.github.io"/>
+    <link rel="self" href="https://9wijfw.github.io/atom.xml"/>
+    <subtitle>动车组/机车/航空/vocaloid/python/建站</subtitle>
+    <logo>https://9wijfw.github.io/images/avatar.png</logo>
+    <icon>https://9wijfw.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Airbus380AL的个人博客</rights>
+    <entry>
+        <title type="html"><![CDATA[24/6/9京沈高铁拍车]]></title>
+        <id>https://9wijfw.github.io/post/2469-jing-shen-gao-tie-pai-che/</id>
+        <link href="https://9wijfw.github.io/post/2469-jing-shen-gao-tie-pai-che/">
+        </link>
+        <updated>2024-06-09T05:53:32.000Z</updated>
+    </entry>
+</feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9wijfw.github.io</id>
     <title>A叁5玖的个人博客</title>
-    <updated>2025-01-11T07:02:12.992Z</updated>
+    <updated>2025-07-16T11:58:50.465Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://9wijfw.github.io"/>
     <link rel="self" href="https://9wijfw.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://9wijfw.github.io/images/avatar.png</logo>
     <icon>https://9wijfw.github.io/favicon.ico</icon>
     <rights>All rights reserved 2025, A叁5玖的个人博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Python3教程(三）---数据类型转化函数]]></title>
+        <id>https://9wijfw.github.io/post/python3-jiao-cheng-san-ji-chu-han-shu-de-shi-yong-yi/</id>
+        <link href="https://9wijfw.github.io/post/python3-jiao-cheng-san-ji-chu-han-shu-de-shi-yong-yi/">
+        </link>
+        <updated>2025-01-11T16:36:46.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python3教程(二）---变量与常见数据类型]]></title>
+        <id>https://9wijfw.github.io/post/python3-jiao-cheng-er-shu-ju-lei-xing/</id>
+        <link href="https://9wijfw.github.io/post/python3-jiao-cheng-er-shu-ju-lei-xing/">
+        </link>
+        <updated>2025-01-10T15:50:32.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python3教程(一）---安装Python（补充）]]></title>
         <id>https://9wijfw.github.io/post/1/</id>
@@ -23,6 +37,13 @@
         <link href="https://9wijfw.github.io/post/python3-jiao-cheng-yi-an-zhuang-python/">
         </link>
         <updated>2024-12-01T14:38:28.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网站制作---如何搭建自己的博客网站]]></title>
+        <id>https://9wijfw.github.io/post/wang-zhan-zhi-zuo-ru-he-da-jian-zi-ji-de-bo-ke-wang-zhan/</id>
+        <link href="https://9wijfw.github.io/post/wang-zhan-zhi-zuo-ru-he-da-jian-zi-ji-de-bo-ke-wang-zhan/">
+        </link>
+        <updated>2024-08-03T02:43:03.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[24/6/9京沈高铁拍车]]></title>

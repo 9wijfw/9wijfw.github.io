@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Python3教程(一）---安装Python（补充） | A叁5玖的个人博客</title>
+<title>Python3教程(二）---变量与常见数据类型 | A叁5玖的个人博客</title>
 <meta name="description" content="动车组/机车/航空/vocaloid/python/建站">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -87,34 +87,87 @@
       <div class="sm-12 md-8 col">
         <div class="paper">
           <article class="article">
-            <h1>Python3教程(一）---安装Python（补充）</h1>
+            <h1>Python3教程(二）---变量与常见数据类型</h1>
             <p class="article-meta">
               2025-01-10
               
-                <a href="https://9wijfw.github.io/tag/bVQ4Jzu4v/" class="badge ">
+                <a href="https://9wijfw.github.io/tag/bVQ4Jzu4v/" class="badge secondary">
                   python
                 </a>
               
             </p>
             
-              <img src="https://9wijfw.github.io/post-images/1.png" alt="Python3教程(一）---安装Python（补充）">
+              <img src="https://9wijfw.github.io/post-images/python3-jiao-cheng-er-shu-ju-lei-xing.png" alt="Python3教程(二）---变量与常见数据类型">
             
             <div class="post-content">
-              <p><img src="https://9wijfw.github.io/post-images/1734191066607.png" alt="" loading="lazy"><br>
-上节课的教程想必大家都看了，但是有的人就要问了:我在安装的时候没有点击&quot;Add Python3.8 to PATH&quot;（没有配置环境变量）怎么办,那么今天我来教大家如何配置环境变量。<br>
-声明：本教程仅适用于win11系统（其他系统可能会有细微差别）<br>
-<img src="https://9wijfw.github.io/post-images/1736523423098.png" alt="" loading="lazy"><br>
-首先我们右键此电脑，点击属性<br>
-<img src="https://9wijfw.github.io/post-images/1736523520528.png" alt="" loading="lazy"><br>
-点击高级系统设置<br>
-<img src="https://9wijfw.github.io/post-images/1736523586731.png" alt="" loading="lazy"><br>
-选择&quot;高级&quot;,然后选择&quot;环境变量&quot;<br>
-<img src="https://9wijfw.github.io/post-images/1736523780114.png" alt="" loading="lazy"><br>
-找到Path点击编辑<br>
-<img src="https://9wijfw.github.io/post-images/1736523957889.png" alt="" loading="lazy"><br>
-在右侧点击新建，再输入python的路径，再点击下面的确定就配置好了<br>
-（ps：如果您不放心，可以调出cmd再输入python如类似于下图这样就成功了）<br>
-<img src="https://9wijfw.github.io/post-images/1736524167908.png" alt="" loading="lazy"></p>
+              <p>欢迎阅读收看我的博客<br>
+变量:<br>
+您可以把变量立即为一个用于存储数据的”盒子“，这个盒子可以存下任何东西且可以被改变。<br>
+例如下行中的x就是一个变量。</p>
+<pre><code>- x = 514
+- x = 114(x的值被改变)
+</code></pre>
+<p>如果我们想改变数据中的内容我们可以另起一行在x变量等号右侧输入新的内容那么它就会被改变<br>
+变量命名规则：在python中变量不可以用用数字或特殊符号开头(如!&lt;@#$%等)，不可以使用python的关键字(例如自带的函数，布尔值等),变量最好命名清晰以便维护（当然这一点取决于你的个人习惯）</p>
+<pre><code>- #正确例子
+- a =114514
+- a1A = 114515
+- _aaa_b = &quot;113&quot;
+- 定 = 112(中文仅限python3.x)
+- #错误例子
+- 5A = &quot;Q13&quot;
+- qq+11  = 143
+- q a = 114*
+</code></pre>
+<p>常量：通常以大写字母表示且内容不会改变（当然这是人为规定的，如果想上文的方式去改变也不会报错)</p>
+<pre><code>- HEIGHT = 1080
+</code></pre>
+<p>值得注意的是，当一个变量里什么都没有时，我们用<code>None</code>表示<br>
+数据类型(括号内为这个数据类型的英文名):<br>
+#注意: python中数据的排布是从0开始的(即：一个字符串'rgfsd'的第0项是r,第一项是g)<br>
+1.整数(int)<br>
+这类数据顾名思义是一个整数 <s>(听君一席话如听君一席话)</s><br>
+整数是由正整数，0，负整数的整数构成。在变量中，可直接与其他整数或浮点数进行加减乘除运算(ps:在相除的情况下最后算出来是浮点数)，这些数通常没有&quot;&quot;存在，如果你在程序中看见如&quot;1&quot;,&quot;123&quot;,&quot;14&quot;等类似于这样形式存在的&quot;整数&quot;时，其实他们并不是整数，而是字符串。</p>
+<pre><code>- a = 1
+- b = a+a ---&gt;b = 2
+- c = 2*a ---&gt; c = 2
+- d = a/1 ---&gt;d = 1.0&lt;class 'float'&gt; 
+</code></pre>
+<p>2.字符串(str)<br>
+字符串可以理解为存储文字的一种，通常以&quot;xxxx&quot;的方式存在，在变量中，把一个字符串与另一个字符串相加可把两段文字拼在一起(如果你您使用其他运算符会报错)。<br>
+<img src="https://9wijfw.github.io/post-images/1736613069264.png" alt="" loading="lazy"></p>
+<pre><code>- a = '1'
+- c = ''#这是一个空字符串
+- b=  '2'
+- print(a+b) ---&gt; '12'
+</code></pre>
+<p>3.浮点数(float)<br>
+浮点数就是我们俗称的小数(例如:0.114),这个数据类型的规则和整数类似。一般情况下，一个浮点数与一个整数相加，最后所得的结果永远是一个浮点数。<br>
+4.列表(list)<br>
+列表与前面所介绍的字符串和整数不同，一个列表可以同时存储多个整数，浮点数，字符串，列表等，外面用中括号括起来</p>
+<pre><code>- list_1 = [0,'1',334.'非结构',2.1]
+- list_kong = []#这是一个空列表
+</code></pre>
+<p>5.字典(dict)<br>
+字典的特点是每一项都有一个键值对存在，即xxx:yyy为一项(xxx为键，yyy为值,且键可以填入不可被改变的数据类型、值可填入所有数据类型),外面由花括号包裹</p>
+<pre><code>- dict_1 = {'a':12,'b':333}
+- dict_2 = {}#这是一个空字典
+</code></pre>
+<h2 id="6元组tup虽然元组的形态与列表有几分相似但是它的外部是由小括号括起来的-元组内部的元素不可被修改但是它可以填入任何类型的数据你甚至可以套一个列表集合字典和元组且两个元组相加可得到一个新元组-ps-元组内不可只存在一个整数">6.元组(tup)<br>
+虽然元组的形态与列表有几分相似，但是它的外部是由小括号括起来的。元组内部的元素不可被修改，但是它可以填入任何类型的数据（你甚至可以套一个列表，集合，字典和元组)，且两个元组相加可得到一个新元组。<br>
+#ps :元组内不可只存在一个整数</h2>
+<pre><code>* tup1 = ([1,2],1)
+* t = (12,1)
+* print(tup1+t) ---&gt;([1, 2], 1, 12, '1')
+</code></pre>
+<p>7.集合（set)<br>
+它是由大括号进行包裹，内部和列表和元组类似，运算规则也与高中数学的集合相似</p>
+<pre><code>- set_1 = {1,4,5,6,7}
+</code></pre>
+<p>8.布尔值<br>
+这个数据是用来判断真(True)或假(False)时使用,它只有两个值True和False</p>
+<pre><code> - a = True
+</code></pre>
 
             </div>
           </article>
@@ -125,9 +178,9 @@
               <div class="next">
                 下一篇
               </div>
-              <a href="https://9wijfw.github.io/post/python3-jiao-cheng-yi-an-zhuang-python/">
+              <a href="https://9wijfw.github.io/post/1/">
                 <h3 class="post-title">
-                  Python3教程(一）---安装Python
+                  Python3教程(一）---安装Python（补充）
                 </h3>
               </a>
             </div>
@@ -226,11 +279,11 @@
           CR复兴号动车组
         </a>
       
-        <a href="https://9wijfw.github.io/tag/pbvzbcLD8/" class="badge secondary">
+        <a href="https://9wijfw.github.io/tag/pbvzbcLD8/" class="badge success">
           CRH动车组
         </a>
       
-        <a href="https://9wijfw.github.io/tag/Jf-nBojJN/" class="badge warning">
+        <a href="https://9wijfw.github.io/tag/Jf-nBojJN/" class="badge secondary">
           拍车
         </a>
       

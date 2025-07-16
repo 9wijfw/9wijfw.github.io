@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Python3教程(一）---安装Python（补充） | A叁5玖的个人博客</title>
+<title>网站制作---如何搭建自己的博客网站 | A叁5玖的个人博客</title>
 <meta name="description" content="动车组/机车/航空/vocaloid/python/建站">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -87,34 +87,52 @@
       <div class="sm-12 md-8 col">
         <div class="paper">
           <article class="article">
-            <h1>Python3教程(一）---安装Python（补充）</h1>
+            <h1>网站制作---如何搭建自己的博客网站</h1>
             <p class="article-meta">
-              2025-01-10
-              
-                <a href="https://9wijfw.github.io/tag/bVQ4Jzu4v/" class="badge ">
-                  python
-                </a>
+              2024-08-03
               
             </p>
             
-              <img src="https://9wijfw.github.io/post-images/1.png" alt="Python3教程(一）---安装Python（补充）">
+              <img src="https://9wijfw.github.io/post-images/wang-zhan-zhi-zuo-ru-he-da-jian-zi-ji-de-bo-ke-wang-zhan.png" alt="网站制作---如何搭建自己的博客网站">
             
             <div class="post-content">
-              <p><img src="https://9wijfw.github.io/post-images/1734191066607.png" alt="" loading="lazy"><br>
-上节课的教程想必大家都看了，但是有的人就要问了:我在安装的时候没有点击&quot;Add Python3.8 to PATH&quot;（没有配置环境变量）怎么办,那么今天我来教大家如何配置环境变量。<br>
-声明：本教程仅适用于win11系统（其他系统可能会有细微差别）<br>
-<img src="https://9wijfw.github.io/post-images/1736523423098.png" alt="" loading="lazy"><br>
-首先我们右键此电脑，点击属性<br>
-<img src="https://9wijfw.github.io/post-images/1736523520528.png" alt="" loading="lazy"><br>
-点击高级系统设置<br>
-<img src="https://9wijfw.github.io/post-images/1736523586731.png" alt="" loading="lazy"><br>
-选择&quot;高级&quot;,然后选择&quot;环境变量&quot;<br>
-<img src="https://9wijfw.github.io/post-images/1736523780114.png" alt="" loading="lazy"><br>
-找到Path点击编辑<br>
-<img src="https://9wijfw.github.io/post-images/1736523957889.png" alt="" loading="lazy"><br>
-在右侧点击新建，再输入python的路径，再点击下面的确定就配置好了<br>
-（ps：如果您不放心，可以调出cmd再输入python如类似于下图这样就成功了）<br>
-<img src="https://9wijfw.github.io/post-images/1736524167908.png" alt="" loading="lazy"></p>
+              <p>搭建一个博客网站，首先您需要一台服务器，您可以选择去购买云服务器或者使用家中闲置的电脑+内网穿透实现，但是第二种方法过于复杂，笔者并不推荐大家使用，这篇文章将重点介绍第一种。然后有了服务器后还需要购买域名。<br>
+一、购买云服务器<br>
+云服务器的厂商有很多比如腾讯云，天翼云，华为云等。但是这些大厂的云服务器租金较高，作者在这里推荐大家使用圣道云(www.shengdaoyun.cn)见下图<br>
+<img src="https://9wijfw.github.io/post-images/1736651806566.png" alt="" loading="lazy"><br>
+注册完账号后在左侧的产品与服务中选择订购产品，然后选择云服务器(如果您的网站体量不大可以考虑购买更便宜的免费空间)<br>
+<img src="https://9wijfw.github.io/post-images/1736652062730.png" alt="" loading="lazy"><br>
+<img src="https://9wijfw.github.io/post-images/1736652114067.png" alt="" loading="lazy"><br>
+我们以购买15元的美国服务器为例（服务器最好买国外的，买国内的后期会涉及到备案等问题)<br>
+<img src="https://9wijfw.github.io/post-images/1736652219974.png" alt="" loading="lazy"><br>
+在选择操作系统的界面，你可以选择数据中心，操作系统(这里以linux centos7.6为例)等<br>
+#注:如果您后期需要安装宝塔面板可以考虑直接选预装宝塔面板的系统<br>
+<img src="https://9wijfw.github.io/post-images/1736652407502.png" alt="" loading="lazy"><br>
+购买完成后等待服务器开通(如果时间太久可以考虑加客服QQ催一下)<br>
+<img src="https://9wijfw.github.io/post-images/1736652835278.png" alt="" loading="lazy"><br>
+然后我们需要在服务器上部署运维软件(作者以宝塔面板bt.cn为例)<br>
+首先在安装宝塔面板之前我们需要安装ssh软件(这里使用堡塔远程工具https://www.bt.cn/new/product_ssh.html)打开后添加新服务器<br>
+<img src="https://9wijfw.github.io/post-images/1736654031047.png" alt="" loading="lazy"><br>
+输入内容(https://9wijfw.github.io/post-images/1736654115909.png)<br>
+在链接成功后打开https://www.bt.cn/new/product_linux.html，点击立即免费安装。<br>
+<img src="https://9wijfw.github.io/post-images/1736654344520.png" alt="" loading="lazy"><br>
+选择合适的版本复制，粘贴到ssh终端上，按下回车键安装<br>
+安装过程中可能会出现类似于这样的对话框，一般建议直接输入y<img src="https://9wijfw.github.io/post-images/1736654429493.png" alt="" loading="lazy"><br>
+安装完成后终端会显示面板的访问地址(如果没看到也没有关系)在终端输入bt再输入14即可查看)<br>
+<img src="https://9wijfw.github.io/post-images/1736693806309.png" alt="" loading="lazy"><br>
+最后进入给的网址，输入用户名和密码<br>
+<img src="https://9wijfw.github.io/post-images/1736693856730.png" alt="" loading="lazy"><br>
+在登陆成功后页面会提示我们选择安装套件，在这里我推荐大家安装LNMP(这里我用的wordpress)<br>
+<img src="https://9wijfw.github.io/post-images/1736694018363.png" alt="" loading="lazy"><br>
+在安装完成后选择软件商店---&gt;一键部署---&gt;wordpress<br>
+<img src="https://9wijfw.github.io/post-images/1736694417924.png" alt="" loading="lazy"><br>
+#ps：这里笔者用的是宝塔面板自带的wordpress一键部署，如果你们想用其他开源可以在网站里添加网站然后倒入源码<br>
+<img src="https://9wijfw.github.io/post-images/1736697084344.png" alt="" loading="lazy"><br>
+这里域名填写你购买的域名(文章后面我会说怎么买域名)，没有填服务器IP即可,其他的跟随系统就行<br>
+#注意：wordpress在确定域名后再更改会很麻烦！！！！<br>
+<img src="https://9wijfw.github.io/post-images/1736697266502.png" alt="" loading="lazy"><br>
+创建完成后访问网站，会看到如下页面，跟着网页提示配置<br>
+最后你得到了一个属于你自己的Blog</p>
 
             </div>
           </article>
@@ -125,9 +143,9 @@
               <div class="next">
                 下一篇
               </div>
-              <a href="https://9wijfw.github.io/post/python3-jiao-cheng-yi-an-zhuang-python/">
+              <a href="https://9wijfw.github.io/post/2469-jing-shen-gao-tie-pai-che/">
                 <h3 class="post-title">
-                  Python3教程(一）---安装Python
+                  24/6/9京沈高铁拍车
                 </h3>
               </a>
             </div>
@@ -218,15 +236,15 @@
     </div>
     <div class="row">
       
-        <a href="https://9wijfw.github.io/tag/bVQ4Jzu4v/" class="badge warning">
+        <a href="https://9wijfw.github.io/tag/bVQ4Jzu4v/" class="badge secondary">
           python
         </a>
       
-        <a href="https://9wijfw.github.io/tag/QQYp5zZC9/" class="badge success">
+        <a href="https://9wijfw.github.io/tag/QQYp5zZC9/" class="badge warning">
           CR复兴号动车组
         </a>
       
-        <a href="https://9wijfw.github.io/tag/pbvzbcLD8/" class="badge secondary">
+        <a href="https://9wijfw.github.io/tag/pbvzbcLD8/" class="badge success">
           CRH动车组
         </a>
       

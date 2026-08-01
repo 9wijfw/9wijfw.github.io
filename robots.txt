@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://9wijfw.github.io/sitemap.xml

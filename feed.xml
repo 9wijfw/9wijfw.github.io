@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gridea Pro</title>
+    <link>/</link>
+    <description>Welcome to Gridea Pro</description>
+    <language>zh-cn</language>
+    <generator>Gridea Pro</generator>
+    <lastBuildDate>Wed, 29 Jul 2026 19:42:11 +0800</lastBuildDate>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <item>
+      <title>TEXT</title>
+      <link>/post/text/</link>
+      <guid isPermaLink="true">/post/text/</guid>
+      <pubDate>Thu, 30 Jul 2026 03:42:01 +0800</pubDate>
+      <description><![CDATA[<p>Q</p>
+]]></description>
+    </item>
+  </channel>
+</rss>

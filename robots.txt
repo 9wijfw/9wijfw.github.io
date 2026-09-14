@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://9wijfw-github-io.vercel.app/sitemap.xml
+Sitemap: https://9wijfw.netlify.app/sitemap.xml
